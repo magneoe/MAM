@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Import</title>
+  <link rel="stylesheet" type="text/css" href="appstyles.css">
+  <script src="buttons.js" type="text/javascript"></script>
+</head>
+<body style="position: relative; min-height: 100%; top:0px;">
+
+  <div class="topnav">
+  </div>
+
+  <div class="sidenav">
+    <div class="dropdown">
+      <button onclick="buttonClick('countries')" class="menubtn">Countries</button>
+      <div id="countries" class="dropdown-content">
+        <ol>
+          <li>Albania</li>
+          <li>Burkina Faso</li>
+          <li>Cameroon</li>
+        </ol>
+      </div>
+      
+      <button onclick="buttonClick('years')" class="menubtn">Years</button>
+      <div id="years" class="dropdown-content">
+        <ol>
+          <li>1992</li>
+          <li>1985</li>
+          <li>1889</li>
+        </ol>
+      </div>
+
+      <button onclick="buttonClick('filters')" class="menubtn">Filters</button>
+      <div id="filters" class="dropdown-content">
+        <ol>
+          <li>Children health</li>
+          <li>Maternal health</li>
+          <li>Maleria</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

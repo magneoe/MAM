@@ -1,0 +1,47 @@
+ol {
+  list-style-type: none;
+}
+
+.topnav {
+  position: fixed;
+  top: 0px;
+  background-color: #5f5f5f;
+  width: 100%;
+  height: 15%;
+  z-index: 2;
+}
+
+.sidenav {
+  position: fixed;
+  padding-top: 122px;
+  height: 100%;
+  width: 15%;
+  background-color: #f1f1f1;
+}
+
+.dropdown {
+  position: fixed;
+  width: 15%
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-content ol {
+  color: black;
+}
+
+.menubtn {
+  background-color: #f1f1f1;
+  padding: 5px;
+  width: 100%;
+  border-style: none;
+  font-size: 25px;
+}
+
+.menubtn:active {
+  background-color: #f9f9f9;
+}
+
+.show {display: block;}

@@ -27,6 +27,10 @@ Features:
 
       - Make the sidebar scrollable when needed.
 
+      - Connect the sidebar to the lower levels of the app so that it will only
+      show viable options in the DHS API. If a country has no surveys, do not
+      show the country at all since there are no data to import.
+
     Content pane:
       - Make a lane for each for country, years and filters.
 

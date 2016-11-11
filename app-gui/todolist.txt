@@ -1,0 +1,51 @@
+Features:
+  Import:
+    Topbar:
+      - Two "tabs", import and database (or something better named)
+
+      - Either keep the data while switching or prompt user that data will be lost
+        and then switch if the user accepts.
+
+      - Topbar should always be visible or at least accessable when scrolling.
+      This might be triggered with the user moving the mouse to the top of the
+      screen if they have scrolled down.
+
+    Sidebar:
+      - Doubleclicking on a list item should make it appear in the main body area.
+        Maybe also a small add button next to it to avoid double clicking like crazy.
+
+      - When a country has been clicked, close the country list and open the years
+        list.
+
+      - If a country has been chosen, the user can click the countries tab again to
+        open up the tab and change the country to another country.
+
+      - If user changes country, prompt that all the filters/years chosen will be
+        reverted and if the user accepts this, revert all the data in the content pane
+        and show the newly chosen country. The prompt should only appear if the user
+        have chosen filterdata and not when he/she is changing between countries.
+
+      - Make the sidebar scrollable when needed.
+
+    Content pane:
+      - Make a lane for each for country, years and filters.
+
+      - Make it possible to delete a chosen filter from the content pane.
+
+      - If deleting the country, prompt the user telling him/her that doing this
+      will remove all other filters.
+
+      - Removing a country may remove filter options available, find a way to
+      handle this in a good way.
+
+      - Add a button in bottom-right called import. Pretty obvious what that
+      does.
+
+      - Make the content pane scrollable.
+
+  Database:
+    Topbar:
+      - Same as importer
+
+    Sidebar:
+      - More info coming here.

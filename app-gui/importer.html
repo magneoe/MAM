@@ -20,7 +20,7 @@
           <li>Cameroon</li>
         </ol>
       </div>
-      
+
       <button onclick="buttonClick('years')" class="menubtn">Years</button>
       <div id="years" class="dropdown-content">
         <ol>
@@ -32,11 +32,23 @@
 
       <button onclick="buttonClick('filters')" class="menubtn">Filters</button>
       <div id="filters" class="dropdown-content">
-        <ol>
-          <li>Children health</li>
-          <li>Maternal health</li>
-          <li>Maleria</li>
-        </ol>
+          <button onclick="buttonClick('childrenhealth')" class="submenubtn">Children health</button>
+          <div id="childrenhealth" class="subdropdown-content">
+            <ol>
+              <li>Children punned</li>
+              <li>Children wasted</li>
+            </ol>
+          </div>
+
+          <button onclick="buttonClick('immunisation')" class="submenubtn">Immunisation</button>
+          <div id="immunisation" class="subdropdown-content">
+            <ol>
+              <li>Something</li>
+              <li>Something</li>
+              <li>Darkside</li>
+              <li>Something</li>
+            <ol>
+          </div>
       </div>
     </div>
   </div>
